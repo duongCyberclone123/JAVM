@@ -1,5 +1,5 @@
 # JAVM - Just Another Virtual Machine
-Mô tả của bài tập lớn nằm trong file JAVM_Specifications_Vietamese.pdf
+Mô tả của bài tập lớn nằm trong file JAVM_Specifications_Vietnamese.pdf
 
 Cách chạy code trên terminal:
 + Bước 1: Chạy dòng lệnh g++ -o main main.cpp StackFrame.cpp

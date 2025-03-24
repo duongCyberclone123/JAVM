@@ -12,4 +12,3 @@ Các lệnh được thêm vào so với đặc tả pdf:
 + new: tạo thêm page mới
 + clear: xóa toàn bộ pages
 + rm <val>: xóa page val (ví dụ: rm 1)
-+ clscr: xóa màn hình terminal của JAVM

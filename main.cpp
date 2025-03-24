@@ -22,8 +22,16 @@ void test(string filename) {
 Main function
 */
 int main(int argc, char **argv) {
-    if (argc < 2)
-        return 1;
-    test(argv[1]);
+    // if (argc < 2)
+    //     return 1;
+    // test(argv[1]);
+
+    StackFrame *sf = new StackFrame();
+    try {
+        sf->runAsCLI();
+    }
+    catch (exception& e) {
+        cout << e.what();
+    }
     return 0;
 }

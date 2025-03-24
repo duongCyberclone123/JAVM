@@ -43,6 +43,7 @@ public:
             }
             ~Stack(){}
     };
+    void printStack(std::stack<Stack*> stackFrame);
     class ArrayAVL{
         public: class Node;
         private:
@@ -237,6 +238,8 @@ public:
     @param filename name of the file
     */
     void run(std::string filename);
+
+    void runAsCLI();
 };
 
 #endif // !__STACK_FRAME_H__
